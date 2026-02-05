@@ -1,3 +1,4 @@
+
 [
   {
     "id": "Q1",
@@ -10,6 +11,253 @@
       "Remove the need for branches"
     ],
     "answerIndex": 1,
-    "explanation": "Continuous  llllaaaallaaalaaalaa Integration aims to detect integration issues early by frequently merging code changes into a shared repository."
+    "explanation": "Continuous Integration aims to detect integration issues early by frequently merging code changes into a shared repository."
+  },
+  {
+    "id": "Q2",
+    "topic": "Continuous Integration",
+    "question": "Which practice is essential for Continuous Integration?",
+    "options": [
+      "Long-lived feature branches",
+      "Manual deployments only",
+      "Frequent automated builds and tests",
+      "Disabling version control"
+    ],
+    "answerIndex": 2,
+    "explanation": "CI relies on automated builds and tests to validate code changes quickly."
+  },
+  {
+    "id": "Q3",
+    "topic": "Continuous Integration",
+    "question": "How often should developers commit code in a CI environment?",
+    "options": [
+      "Once per month",
+      "Only before releases",
+      "Frequently, ideally daily",
+      "Only after approval"
+    ],
+    "answerIndex": 2,
+    "explanation": "Frequent commits help detect integration issues early."
+  },
+  {
+    "id": "Q4",
+    "topic": "Continuous Integration",
+    "question": "What tool is commonly used to automate CI pipelines?",
+    "options": [
+      "GitHub Actions",
+      "Microsoft Word",
+      "Excel",
+      "FTP"
+    ],
+    "answerIndex": 0,
+    "explanation": "GitHub Actions automates build, test, and deployment workflows."
+  },
+  {
+    "id": "Q5",
+    "topic": "Continuous Integration",
+    "question": "What happens when a CI build fails?",
+    "options": [
+      "The failure is ignored",
+      "The code is automatically deployed",
+      "Developers are notified to fix the issue",
+      "The repository is deleted"
+    ],
+    "answerIndex": 2,
+    "explanation": "CI failures notify developers so issues can be fixed immediately."
+  },
+  {
+    "id": "Q6",
+    "topic": "Git & GitHub",
+    "question": "What is the main purpose of Git?",
+    "options": [
+      "Deploy applications",
+      "Manage databases",
+      "Track changes in source code",
+      "Run containers"
+    ],
+    "answerIndex": 2,
+    "explanation": "Git is a version control system that tracks code changes."
+  },
+  {
+    "id": "Q7",
+    "topic": "Git & GitHub",
+    "question": "What command is used to create a new Git branch?",
+    "options": [
+      "git merge",
+      "git checkout -b",
+      "git pull",
+      "git clone"
+    ],
+    "answerIndex": 1,
+    "explanation": "`git checkout -b` creates and switches to a new branch."
+  },
+  {
+    "id": "Q8",
+    "topic": "Git & GitHub",
+    "question": "What is a pull request?",
+    "options": [
+      "A request to delete a branch",
+      "A way to push code directly to main",
+      "A request to merge changes into another branch",
+      "A command-line operation"
+    ],
+    "answerIndex": 2,
+    "explanation": "Pull requests allow code review before merging changes."
+  },
+  {
+    "id": "Q9",
+    "topic": "Git & GitHub",
+    "question": "Which command updates a local branch with remote changes?",
+    "options": [
+      "git push",
+      "git fetch",
+      "git pull",
+      "git commit"
+    ],
+    "answerIndex": 2,
+    "explanation": "`git pull` fetches and merges changes from the remote repository."
+  },
+  {
+    "id": "Q10",
+    "topic": "Git & GitHub",
+    "question": "What branch is typically the stable production branch?",
+    "options": [
+      "feature",
+      "develop",
+      "main",
+      "test"
+    ],
+    "answerIndex": 2,
+    "explanation": "`main` usually represents stable, production-ready code."
+  },
+  {
+    "id": "Q11",
+    "topic": "Docker",
+    "question": "What is Docker primarily used for?",
+    "options": [
+      "Writing code",
+      "Virtualizing hardware",
+      "Packaging applications into containers",
+      "Managing users"
+    ],
+    "answerIndex": 2,
+    "explanation": "Docker packages applications and dependencies into containers."
+  },
+  {
+    "id": "Q12",
+    "topic": "Docker",
+    "question": "What file defines how a Docker image is built?",
+    "options": [
+      "docker-compose.yml",
+      "Dockerfile",
+      "config.json",
+      "package.json"
+    ],
+    "answerIndex": 1,
+    "explanation": "A Dockerfile contains instructions to build an image."
+  },
+  {
+    "id": "Q13",
+    "topic": "Docker",
+    "question": "What command builds a Docker image?",
+    "options": [
+      "docker run",
+      "docker pull",
+      "docker build",
+      "docker start"
+    ],
+    "answerIndex": 2,
+    "explanation": "`docker build` creates a Docker image from a Dockerfile."
+  },
+  {
+    "id": "Q14",
+    "topic": "Docker",
+    "question": "What is a Docker container?",
+    "options": [
+      "A virtual machine",
+      "A lightweight running instance of an image",
+      "A database",
+      "A source code repository"
+    ],
+    "answerIndex": 1,
+    "explanation": "Containers are running instances of Docker images."
+  },
+  {
+    "id": "Q15",
+    "topic": "Docker",
+    "question": "Which command runs a Docker container?",
+    "options": [
+      "docker run",
+      "docker build",
+      "docker push",
+      "docker tag"
+    ],
+    "answerIndex": 0,
+    "explanation": "`docker run` starts a container from an image."
+  },
+  {
+    "id": "Q16",
+    "topic": "DevOps Concepts",
+    "question": "What is the main goal of DevOps?",
+    "options": [
+      "Replace developers",
+      "Increase silos",
+      "Improve collaboration between development and operations",
+      "Eliminate testing"
+    ],
+    "answerIndex": 2,
+    "explanation": "DevOps improves collaboration to deliver software faster and more reliably."
+  },
+  {
+    "id": "Q17",
+    "topic": "DevOps Concepts",
+    "question": "Which practice promotes faster feedback?",
+    "options": [
+      "Manual testing",
+      "Continuous Integration",
+      "Annual releases",
+      "Delayed reviews"
+    ],
+    "answerIndex": 1,
+    "explanation": "CI provides fast feedback through automated testing."
+  },
+  {
+    "id": "Q18",
+    "topic": "DevOps Concepts",
+    "question": "What does CI/CD stand for?",
+    "options": [
+      "Code Integration / Code Delivery",
+      "Continuous Integration / Continuous Delivery",
+      "Central Integration / Central Deployment",
+      "Code Improvement / Code Deployment"
+    ],
+    "answerIndex": 1,
+    "explanation": "CI/CD automates integration and delivery pipelines."
+  },
+  {
+    "id": "Q19",
+    "topic": "DevOps Concepts",
+    "question": "Which tool helps automate deployments?",
+    "options": [
+      "GitHub Actions",
+      "Notepad",
+      "Paint",
+      "Calculator"
+    ],
+    "answerIndex": 0,
+    "explanation": "GitHub Actions can automate deployment workflows."
+  },
+  {
+    "id": "Q20",
+    "topic": "DevOps Concepts",
+    "question": "Why is automation important in DevOps?",
+    "options": [
+      "It increases manual work",
+      "It slows down delivery",
+      "It reduces human error and speeds up delivery",
+      "It removes collaboration"
+    ],
+    "answerIndex": 2,
+    "explanation": "Automation reduces errors and accelerates software delivery."
   }
 ]
