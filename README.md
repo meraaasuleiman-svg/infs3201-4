@@ -1,4 +1,4 @@
-# ##### INFS3201 Assignment 4 – DevOps Quiz App
+# INFS3201 Assignment 4 – DevOps Quiz App
 
 ## Features
 - Quiz user interface with topic selection
