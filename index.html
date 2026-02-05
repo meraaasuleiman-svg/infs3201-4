@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DevOps Quiz App</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>DevOps Quiz</h1>
+      <p class="subtitle">Pick a topic, answer questions, and learn from explanations.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card controls">
+      <div class="row">
+        <label for="topicSelect" class="label">Topic</label>
+        <select id="topicSelect" class="select">
+          <option value="all">All Topics</option>
+        </select>
+
+        <button id="startBtn" class="btn primary" type="button">Start</button>
+        <button id="resetBtn" class="btn" type="button" disabled>Reset</button>
+      </div>
+
+      <div class="row stats">
+        <div class="pill">Loaded: <span id="loadedCount">0</span></div>
+        <div class="pill">Topic: <span id="activeTopic">All</span></div>
+        <div class="pill">Progress: <span id="progressText">0/0</span></div>
+        <div class="pill">Score: <span id="scoreText">0</span></div>
+      </div>
+
+      <p id="statusMsg" class="status">Loading questions…</p>
+    </section>
+
+    <section id="quizCard" class="card quiz" aria-live="polite">
+      <div class="quiz-head">
+        <h2 id="questionText">Select a topic and press Start.</h2>
+        <div class="meta">
+          <span class="tag" id="qidTag">—</span>
+          <span class="tag" id="topicTag">—</span>
+        </div>
+      </div>
+
+      <form id="optionsForm" class="options" autocomplete="off">
+        <!-- options injected here -->
+      </form>
+
+      <div id="feedback" class="feedback hidden">
+        <div class="feedback-title" id="feedbackTitle"></div>
+        <div class="feedback-expl" id="feedbackExpl"></div>
+      </div>
+
+      <div class="actions">
+        <button id="submitBtn" class="btn primary" type="button" disabled>Submit</button>
+        <button id="nextBtn" class="btn" type="button" disabled>Next</button>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <small>Static app (HTML/CSS/JS only). Questions loaded from <code>data/questions.json</code>.</small>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
